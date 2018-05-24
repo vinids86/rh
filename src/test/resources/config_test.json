@@ -1,0 +1,159 @@
+{
+  "today": "2018-05-07",
+  "period_start": "2018-04-10",
+  "employees": [
+    {
+      "workload": [
+        {
+          "workload_in_minutes": 300,
+          "minimum_rest_interval_in_minutes": 15,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ]
+        }
+      ],
+      "pis_number": "123456789",
+      "name": "John Doe"
+    },
+    {
+      "workload": [
+        {
+          "workload_in_minutes": 666,
+          "minimum_rest_interval_in_minutes": 0,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ]
+        }
+      ],
+      "pis_number": "666",
+      "name": "Ginger Elvis"
+    },
+    {
+      "workload": [
+        {
+          "workload_in_minutes": 300,
+          "minimum_rest_interval_in_minutes": 15,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ]
+        }
+      ],
+      "pis_number": "111111111",
+      "name": "Kurt Kobain"
+    },
+    {
+      "workload": [
+        {
+          "workload_in_minutes": 700,
+          "minimum_rest_interval_in_minutes": 0,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ]
+        }
+      ],
+      "pis_number": "22",
+      "name": "2 minutes to midnight"
+    },
+    {
+      "workload": [
+        {
+          "workload_in_minutes": 480,
+          "minimum_rest_interval_in_minutes": 60,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ]
+        }
+      ],
+      "pis_number": "789456123",
+      "name": "Carinha que mora loga ali"
+    },
+    {
+      "workload": [
+        {
+          "workload_in_minutes": 480,
+          "minimum_rest_interval_in_minutes": 60,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ]
+        }
+      ],
+      "pis_number": "852",
+      "name": "Marilyn Monroe"
+    },
+    {
+      "workload": [
+        {
+          "workload_in_minutes": 480,
+          "minimum_rest_interval_in_minutes": 60,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ]
+        }
+      ],
+      "pis_number": "963",
+      "name": "John Lennon"
+    },
+    {
+      "workload": [
+        {
+          "workload_in_minutes": 480,
+          "minimum_rest_interval_in_minutes": 60,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ]
+        }
+      ],
+      "pis_number": "741",
+      "name": "Lou Reed"
+    },
+    {
+      "workload": [
+        {
+          "workload_in_minutes": 480,
+          "minimum_rest_interval_in_minutes": 60,
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ]
+        }
+      ],
+      "pis_number": "0",
+      "name": "Roger Waters"
+    }
+  ]
+}
