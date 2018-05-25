@@ -1,8 +1,8 @@
 package com.xerpa.acme.employee;
 
-import com.xerpa.acme.resources.report.EmployeeReport;
 import com.xerpa.acme.BaseTest;
 import com.xerpa.acme.EmployeeTestUtils;
+import com.xerpa.acme.resources.report.EmployeeReport;
 import com.xerpa.acme.workload.repository.TimeClockEntriesRepository;
 import com.xerpa.acme.workload.repository.TimeClockEntriesRepositoryImpl;
 import com.xerpa.acme.workload.service.BalanceDayService;

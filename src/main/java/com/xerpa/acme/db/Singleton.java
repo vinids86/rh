@@ -11,7 +11,7 @@ import java.util.Map;
 public final class Singleton {
 
     private static Singleton instance;
-    Map<String, List<LocalTime>> map = new HashMap<>();
+    private Map<String, List<LocalTime>> map = new HashMap<>();
 
     private Singleton() {
     }
@@ -24,9 +24,5 @@ public final class Singleton {
 
     public Map<String, List<LocalTime>> getMap() {
         return map;
-    }
-
-    public void setMap(Map<String, List<LocalTime>> map) {
-        this.map = map;
     }
 }

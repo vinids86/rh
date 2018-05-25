@@ -11,11 +11,11 @@ import java.util.stream.Stream;
 public class FileUtils {
 
     public String getFileFromClasspath(String fileName) throws URISyntaxException, IOException {
-        URI uriDoRecurso = Objects.requireNonNull(getClass().getClassLoader().getResource(fileName)).toURI();
+        URI resourceURI = Objects.requireNonNull(getClass().getClassLoader().getResource(fileName)).toURI();
         Path path;
 
-        if(uriDoRecurso.toString().contains("!")) {
-            String[] URIparts = uriDoRecurso.toString().split("!");
+        if (resourceURI.toString().contains("!")) {
+            String[] URIparts = resourceURI.toString().split("!");
             URI URIjars = URI.create(URIparts[0]);
             FileSystem fs;
             try {
@@ -25,7 +25,7 @@ public class FileUtils {
             }
             path = fs.getPath(URIparts[1]);
         } else {
-            path = Paths.get(uriDoRecurso);
+            path = Paths.get(resourceURI);
         }
 
         StringBuilder data = new StringBuilder();

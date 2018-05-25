@@ -107,11 +107,10 @@ public class Load {
      * @param map mapa com as entradas
      * @param key pisNumber do funcionário '/' e data
      * @param item registro de entrada
-     * @return lista com as entradas
      */
-    private synchronized boolean addEntries(Map<String, List<LocalTime>> map, String key, LocalTime item) {
+    private synchronized void addEntries(Map<String, List<LocalTime>> map, String key, LocalTime item) {
         List<LocalTime> list = map.computeIfAbsent(key, k -> new ArrayList<>());
-        return list.add(item);
+        list.add(item);
     }
 }
 

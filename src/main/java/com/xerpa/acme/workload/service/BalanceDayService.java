@@ -27,7 +27,7 @@ public class BalanceDayService {
      * Caso seja folga do funcionário todas as horas trabalhadas são contadas no balanço.
      * @param employee funcionário a ter as horas calculadas
      * @param day dia a ser verificado
-     * @return
+     * @return balanço de horas do dia de um funcionário
      */
     public Duration getBalance(EmployeeEntity employee, LocalDate day) {
         Duration workHours;
@@ -97,10 +97,8 @@ public class BalanceDayService {
      * @param interval tempo de intervalo feito no dia
      * @param minimumRestIntervalInMinutes intervalo minímo esperado
      * @return se intervalo é menor que o esperado
-     * @throws NoEntriesException caso não haja entradas no dia
-     * @throws TimeClockDayException caso as entradas sejam inválidas
      */
-    private boolean intervalShortThanExpected(long interval, long minimumRestIntervalInMinutes) throws NoEntriesException, TimeClockDayException {
+    private boolean intervalShortThanExpected(long interval, long minimumRestIntervalInMinutes) {
         return minimumRestIntervalInMinutes > interval;
     }
 
